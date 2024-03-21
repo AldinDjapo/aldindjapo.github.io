@@ -59,8 +59,8 @@ main {
   width: 5rem;
   height: 100%;
   position: fixed;
-  background: linear-gradient(to left, var(--white2), var(--darkgray));
-  /* background-color: var(--gray); */
+  /* background: linear-gradient(to left, var(--white2), var(--darkgray)); */
+  background-color: rgba(31, 33, 36, 0.9);
   transition: all 0.2s ease;
   /* border-right: 2px solid #1b1b1b; */
 }
@@ -73,7 +73,7 @@ main {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  border-right: 1px groove var(--darkgray);
+  /* border-right: 1px groove var(--darkgray); */
 }
 
 .nav-item {
@@ -82,6 +82,7 @@ main {
 
 p#music {
   cursor: pointer;
+  margin: 0;
 }
 
 .nav-item:last-child {
@@ -119,7 +120,7 @@ p#music {
 }
 
 .nav-link:hover {
-  background-color: var(--white2);
+  background-color: rgb(151, 150, 150);
   opacity: 0.7;
   /* background: linear-gradient(to left, var(--lightblack), var(--white2)); */
 }
@@ -156,10 +157,14 @@ main p span:hover {
   color: var(--green);
 }
 
-svg {
-  height: 18px !important;
+.bx-home,
+.bx-info-circle,
+.bx-book,
+.bx-music,
+.bx-phone {
+  font-size: 1.5rem;
+  padding: 1.5rem;
 }
-
 .main-img {
   /* border: 1px solid var(--cremewhite); */
   width: 30rem;
@@ -212,10 +217,10 @@ html.is-leaving .transition-fade {
   font-size: 25px;
   text-decoration: none;
   font-family: 500;
-  border: 1px solid var(--cremewhite);
+  border: 1px solid var(--tamnogray);
   padding: 15px;
   border-radius: 5px;
-  background-color: var(--black);
+  background-color: var(--tamnogray);
   transition: all 0.3s ease;
 }
 
@@ -468,7 +473,7 @@ form {
 
 .skills {
   padding: 70px 85px;
-  background-color: var(--tamnogray);
+  background-color: rgb(25, 25, 25);
 }
 
 .skills h3 {
@@ -556,7 +561,7 @@ form {
 .col-2 {
   column-count: 2;
   column-gap: 4rem;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   /* line-height: 4.5rem; */
 }
 
